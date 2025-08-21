@@ -1,4 +1,4 @@
-// Il file si trova in: src/persistence/GestoreFileContabilita.java
+
 package persistence;
 
 import java.io.IOException;
@@ -29,8 +29,7 @@ public class GestoreFileContabilita {
                 String riga = righe.get(i);
                 if (riga.trim().isEmpty()) continue;
 
-                // --- QUESTA È LA RIGA CORRETTA ---
-                // Il parametro -1 forza lo split a non ignorare le stringhe vuote alla fine.
+                
                 String[] dati = riga.split(";", -1); 
 
                 if (dati.length == 5) {
