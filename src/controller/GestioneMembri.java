@@ -1,6 +1,6 @@
 package controller;
 
-// IMPORT CORRETTI
+
 import modello.Membro;
 import persistence.GestoreFileMembri;
 
