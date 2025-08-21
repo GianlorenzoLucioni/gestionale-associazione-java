@@ -1,0 +1,10 @@
+# File compilati
+/bin/
+/target/
+Gestionale.jar
+
+# File dell'IDE
+.vscode/
+
+# File di sistema
+.DS_Store
